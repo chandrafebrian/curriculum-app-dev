@@ -6,7 +6,7 @@ pipeline {
         git(url: 'https://github.com/chandrafebrian/curriculum-app-dev', branch: 'master')
       }
     }
-
+#chandrafebrain
     stage('Log') {
       steps {
         sh 'ls -la'
